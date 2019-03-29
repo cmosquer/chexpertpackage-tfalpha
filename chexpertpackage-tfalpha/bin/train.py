@@ -24,9 +24,9 @@ from keras.callbacks import ModelCheckpoint, TensorBoard, ReduceLROnPlateau
 #####
 if __name__ == "__main__" and __package__ is None:
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
-    import chexpertpackage.bin  # noqa: F401
+    import chexpertpackage_tfalpha.bin  # noqa: F401
     #import chexpertpackage
-    __package__ = "chexpertpackage.bin"
+    __package__ = "chexpertpackage_tfalpha.bin"
     #__package__ = "chexpertpackage"
 
 
