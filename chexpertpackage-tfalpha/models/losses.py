@@ -11,7 +11,7 @@ def dice_coef(y_true, y_pred):
     intersection = K.sum(y_true_f * y_pred_f)
     return (2. * intersection + smooth) / (K.sum(y_true_f) + K.sum(y_pred_f) + smooth)
 
-def AUC(y_true,y_pred):
+def AUC(y_true,y_pred):chexper
     # any tensorflow metric
     value, update_op = tf.metrics.auc(y_true, y_pred)
     with tf.control_dependencies([update_op]):

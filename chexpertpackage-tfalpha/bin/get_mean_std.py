@@ -11,8 +11,8 @@ import pickle
 
 if __name__ == "__main__" and __package__ is None:
     sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
-    import chexpertpackage.bin  # noqa: F401
-    __package__ = "chexpertpackage.bin"
+    import chexpertpackage_tfalpha.bin  # noqa: F401
+    __package__ = "chexpertpackage_tfalpha.bin"
 
 
 from ..labels.custom_generators import  MeanGenerator, VarianceGenerator
